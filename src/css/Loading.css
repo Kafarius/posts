@@ -1,0 +1,9 @@
+.loading {
+    width: 100%;
+    height: 80vh;
+    position: fixed;
+    background: transparent
+        url("https://media3.giphy.com/media/5AtXMjjrTMwvK/200w.webp") center
+        no-repeat;
+    z-index: 1;
+}

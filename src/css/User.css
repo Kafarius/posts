@@ -1,0 +1,83 @@
+.UserDetails {
+    margin: 0;
+    padding: 0;
+}
+.UserDetails header {
+    background-color: #232323;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.UserDetails header h1 {
+    color: #00a0c8;
+    letter-spacing: 4px;
+}
+.UserDetails header a {
+    text-decoration: none;
+    color: #00587f;
+}
+.UserDetails header a:hover {
+    color: #00a0c8;
+}
+.postsTitle {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.postList .post {
+    display: flex;
+    align-items: center;
+    background-color: #232323;
+    width: 50%;
+    min-height: 70px;
+    margin: 20px auto ;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    position: relative;
+}
+
+div.linkLeft, div.linkRight, a.postLink {
+    display: block;
+    height: 70px;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding-top: 20px;
+}div.linkLeft, div.linkRight {
+     flex-grow: 1;
+ }
+
+.post .postLink {
+    flex-grow: 2;
+}
+.postLink {
+    color: #b7b6b5;
+    text-align: center;
+}
+.postLink:hover {
+    color: wheat;
+}
+.linkLeft {
+    color: #00587f;
+    text-align: left;
+    cursor: pointer;
+}
+.linkLeft:hover, .linkRight:hover {
+    color: #00a0c8;
+}
+.linkRight {
+    color: #00587f;
+    text-align: right;
+}
+.left {
+    position: absolute;
+    left: 20px;
+}
+.right {
+    position: absolute;
+    right: 20px;
+}

@@ -1,0 +1,65 @@
+.Users {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap
+}
+.User {
+    display: block;
+    height: 300px;
+    width: 250px;
+    background-color: #232323;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 7px;
+    position: relative;
+
+}
+.User:hover {
+    -webkit-box-shadow: 0px 0px 22px 1px rgba(13, 130, 156, 1);
+    -moz-box-shadow: 0px 0px 22px 1px rgba(13, 130, 156, 1);
+    box-shadow: 0px 0px 22px 1px rgba(13, 130, 156, 1);
+}
+.fadein {
+
+}
+.User h3 {
+    color: #00a0c8;
+}
+.User a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #00587f;
+
+}
+.User a:hover {
+    color: rgba(13, 130, 156, 1);
+}
+.User p {
+    color: #b7b6b5;
+    letter-spacing: 2px;
+}
+.User h3, .User a, .User p {
+    padding: 20px 0;
+}
+.User .btn {
+    display: block;
+    padding: 10px 35px;
+    background-color: #00587f;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.User .btn:hover {
+    background-color: rgba(13, 130, 156, 1);
+    color: black;
+}
+

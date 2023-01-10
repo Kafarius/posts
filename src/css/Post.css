@@ -1,0 +1,101 @@
+.UserDetails {
+    margin: 0;
+    padding: 0;
+}
+header.UserDetails  {
+    background-color: #232323;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+header.UserDetails h1 {
+    color: #00a0c8;
+}
+header.UserDetails a {
+    text-decoration: none;
+    color: #00587f;
+}
+header.UserDetails a:hover {
+    text-decoration: none;
+    color: #00a0c8;
+}
+.PostTile {
+    background-color: #232323;
+    display: block;
+    width: 60%;
+    height: auto;
+    padding: 20px;
+    margin: 100px auto;
+    border-radius: 7px;
+}
+.PostTile h2 {
+    width: 100%;
+    text-align: center;
+    color: wheat;
+    border-bottom: 2px solid #00587f;
+
+}
+.PostTile p{
+    text-align: justify;
+    color: #b7b6b5;
+    padding: 30px;
+}
+.Comments {
+    display: block;
+    width: 60%;
+    min-height: 40px;
+    background-color: #232323;
+    border-radius: 7px;
+    padding: 20px;
+    margin: 25px auto;
+    position: relative;
+}
+.Comments button {
+    display: block;
+    padding: 10px 35px;
+    background-color: #00587f;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+}
+.Comments button:hover {
+    background-color: rgba(13, 130, 156, 1);
+    color: black;
+}
+.comment {
+    display: block;
+    padding: 20px;
+    margin: 20px;
+    border-bottom: 2px solid #b5b4b3;
+}
+.comment header {
+    display: inline-block;
+    width: 100%;
+}
+.comment header h4 {
+    color: #00a0c8;
+    text-align: left;
+    width: 50%;
+    margin: 0;
+    float: left;
+}
+.comment header i {
+    display: block;
+    width: 50%;
+    color: white;
+    font-size: 17px;
+    margin: 0;
+    float: left;
+    text-align: right;
+}
+.comment p {
+    padding: 0 20px;
+    color: #b3b2b1;
+}
+.CommentList {
+    margin-top: 50px;
+}
